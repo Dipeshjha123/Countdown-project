@@ -1,0 +1,406 @@
+body {
+    background-color: antiquewhite;
+    background-image: url(https://cutewallpaper.org/27/blue-clock-wallpaper-hd/1876530485.jpg);
+    background-size:800px 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+}
+
+body h1 {
+    /*margin-left: 317px;*/
+    color: rgb(20, 5, 34);
+    font-size: xxx-large;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(94, 52, 52);
+}
+
+.time {
+width: 1000px;
+height: 80px;
+border: 1px solid #ce5151;
+justify-content: space-evenly;
+display: flex;
+margin: auto;
+align-items: center;
+margin-bottom: 100px;
+border-radius: 20%;
+border: 5px solid rgb(3, 38, 60);
+
+}
+
+input {
+    display: block;
+    text-align: center;
+    height:30px;
+    width: 60px;
+    border-radius:20px ;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 310;
+    font-family: cursive;
+}
+
+.whole {
+    margin-top: 15%;
+    
+}
+
+#endDate {
+    text-align: center;
+}
+
+.time:hover {
+    border-color: rgb(36, 16, 83);
+}
+
+input:hover {
+    background-color: aquamarine;
+    color: rgb(5, 5, 5);
+}
+
+
+.whole h1 {
+    margin-bottom: 30px;
+}
+
+#element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: rgb(3, 43, 35);
+    font-weight: 700;
+    position: absolute;
+    margin: auto;
+    margin-left: 47%;
+}
+
+
+.social {
+display: inline-flex;
+width: 15%;
+display: flex;
+  justify-content: space-evenly;
+  border: 2px solid rgb(70, 34, 87);
+  border-radius: 10px;
+  height: 25px;
+  align-items: center;
+  color: white;
+}
+  
+
+footer {
+  margin-left: 47%;
+  margin-top: 75px;
+  transition: margin-left 0.5s, margin-top 0.5s;
+}
+
+#follow {
+  font-family: cursive;
+  color: rgb(94, 52, 52);
+  margin-bottom: 8px;
+
+}
+
+.social:hover {
+  background-color: aquamarine;
+
+}
+
+.facebook a {
+  color:#2f65d2;
+}
+
+.instagram a {
+  color:#d62976;
+}
+
+.linkedin a {
+  color:#0072b1;
+}
+
+.youtube a {
+  color:#b80701 ;
+}
+
+
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+  body {
+    background-color: antiquewhite;
+    background-image: url(https://cutewallpaper.org/27/blue-clock-wallpaper-hd/1876530485.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+  }
+
+  body h1 {
+    font-size: xxx-large;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(94, 52, 52);
+  }
+
+  .time {
+    width: 100%;
+    max-width: 800px;
+    height: 90px;
+    border: 1px solid #ce5151;
+    justify-content: space-evenly;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 6%;
+    border: 5px solid rgb(3, 38, 60);
+  }
+
+  input {
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: large;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 310;
+    font-family: cursive;
+  }
+
+  .whole {
+    margin-top: 5%;
+
+  }
+
+  #endDate {
+    text-align: center;
+  }
+
+  .time:hover {
+    border-color: rgb(36, 16, 83);
+  }
+
+  input:hover {
+    background-color: aquamarine;
+    color: rgb(5, 5, 5);
+  }
+
+  .whole h1 {
+    margin-bottom: 30px;
+  }
+
+  #element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: rgb(3, 43, 35);
+    font-weight: 700;
+    position: absolute;
+    margin: auto;
+    margin-left: 39%;
+    padding-top: 20px;
+  }
+
+  .social {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 25px;
+    border: 2px solid rgb(70, 34, 87);
+    border-radius: 10px;
+    margin-top: 2px;
+    color: white;
+    margin-left: 110px;
+  }
+
+  footer {
+    margin-left: 0;
+    margin-top: 75px;
+    transition: margin-left 0.5s, margin-top 0.5s;
+  }
+
+  #follow {
+    font-family: cursive;
+    color: rgb(94, 52, 52);
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .social:hover {
+    background-color: aquamarine;
+  }
+
+  .facebook a {
+    color: #2f65d2;
+  }
+
+  .instagram a {
+    color: #d62976;
+  }
+
+  .linkedin a {
+    color: #0072b1;
+  }
+
+  .youtube a {
+    color: #b80701;
+  }
+}
+
+
+@media (max-width: 767px) {
+  body {
+    background-color: antiquewhite;
+    background-image: url(https://cutewallpaper.org/27/blue-clock-wallpaper-hd/1876530485.jpg);
+    background-size: cover;
+  }
+
+  body h1 {
+    font-size: xxx-large;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(94, 52, 52);
+  }
+
+  .time {
+    width: 100%;
+    max-width: 800px;
+    height: 80px;
+    border: 1px solid #ce5151;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    border-radius: 6%;
+    border: 5px solid rgb(3, 38, 60);
+    margin-top :60px ;
+  }
+
+  input {
+    display: block;
+    text-align: center;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: large;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 310;
+    font-family: cursive;
+  }
+
+  .whole {
+    margin-top: 5%;
+
+  }
+
+  #endDate {
+    text-align: center;
+  }
+
+  .time:hover {
+    border-color: rgb(36, 16, 83);
+  }
+
+  input:hover {
+    background-color: aquamarine;
+    color: rgb(5, 5, 5);
+  }
+
+  .whole h1 {
+    margin-bottom: 30px;
+  }
+
+  #element {
+    display: inline-flex;
+    justify-content: space-around;
+    font-size: xx-large;
+    color: rgb(3, 43, 35);
+    font-weight: 700;
+    position: absolute;
+    margin-left: 35%;
+    margin-bottom: 25px;
+  }
+
+  body span {
+    margin-top: 55px;
+  }
+
+  .social {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 25px;
+    border: 2px solid rgb(70, 34, 87);
+    border-radius: 10px;
+    margin-top: 2px;
+    color: white;
+    margin-left: 110px;
+  }
+
+  footer {
+    margin-left: 0;
+    margin-top: 35px;
+    transition: margin-left 0.5s, margin-top 0.5s;
+  }
+
+  #follow {
+    font-family: cursive;
+    color: rgb(94, 52, 52);
+    margin-bottom: 2px;
+    text-align: center;
+
+  }
+
+  .social:hover {
+    background-color: aquamarine;
+  }
+
+  .facebook a {
+    color: #2f65d2;
+  }
+
+  .instagram a {
+    color: #d62976;
+  }
+
+  .linkedin a {
+    color: #0072b1;
+  }
+
+  .youtube a {
+    color: #b80701;
+  }
+}
